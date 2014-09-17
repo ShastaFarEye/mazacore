@@ -1,7 +1,7 @@
 {
-  "name": "bitcore",
-  "description": "Bitcoin Library",
-  "version": "0.1.36",
+  "name": "mazacore",
+  "description": "Mazacoin Library",
+  "version": "0.1.0",
   "author": {
     "name": "Stephen Pair",
     "email": "stephen@bitpay.com"
@@ -30,11 +30,15 @@
     {
       "name": "Gordon Hall",
       "email": "gordon@bitpay.com"
+    },
+    {
+      "name": "Tyler Willis",
+      "email": "kefkius@mazacoin.org"
     }
   ],
   "keywords": [
-    "bitcoin",
-    "btc",
+    "mazacoin",
+    "mzc",
     "satoshi",
     "money",
     "currency",
@@ -43,7 +47,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/mazacoin/mazacore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",

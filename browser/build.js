@@ -95,7 +95,7 @@ var createBitcore = function(opts) {
 
   var bopts = {
     debug: true,
-    standalone: 'bitcore',
+    standalone: 'mazacore',
     insertGlobals: true
   };
   var b = browserify(bopts);
@@ -113,7 +113,7 @@ var createBitcore = function(opts) {
     expose: 'buffers'
   });
   b.require('./' + opts.dir + 'bitcore', {
-    expose: 'bitcore'
+    expose: 'mazacore'
   });
   modules.forEach(function(m) {
     if (opts.includeall || submodules.indexOf(m) > -1) {
