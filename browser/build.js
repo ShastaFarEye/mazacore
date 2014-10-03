@@ -112,7 +112,7 @@ var createBitcore = function(opts) {
   b.require(opts.dir + 'buffers', {
     expose: 'buffers'
   });
-  b.require('./' + opts.dir + 'bitcore', {
+  b.require('./' + opts.dir + 'mazacore', {
     expose: 'mazacore'
   });
   modules.forEach(function(m) {
