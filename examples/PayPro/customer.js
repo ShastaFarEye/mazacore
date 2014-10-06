@@ -31,7 +31,7 @@ if (isNode) {
 
 var bitcore = isNode
   ? require('../../')
-  : require('bitcore');
+  : require('mazacore');
 var PayPro = bitcore.PayPro;
 var Transaction = bitcore.Transaction;
 var TransactionBuilder = bitcore.TransactionBuilder;

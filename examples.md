@@ -1010,7 +1010,7 @@
 	 * relying on PeerManager.
 	 */
 	
-	// replace by require('bitcore') if you use somewhere else
+	// replace by require('mazacore') if you use somewhere else
 	var bitcore = require('../');
 	
 	//bitcore.config.logger = 'debug';

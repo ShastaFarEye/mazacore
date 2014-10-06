@@ -44,7 +44,7 @@
     "currency",
     "virtual"
   ],
-  "main": "bitcore.js",
+  "main": "mazacore.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mazacoin/mazacore.git"
